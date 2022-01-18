@@ -1,0 +1,330 @@
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --onyx: rgba(51, 55, 59, 0.698);
+  --onyx-2: rgba(51, 55, 59, 1);
+  --ship-gray: rgba(64, 63, 71, 1);
+  --abbey: rgba(79, 79, 79, 1);
+  --indigo: rgba(88, 123, 224, 1);
+  --dove-gray: rgba(111, 110, 114, 1);
+  --true-v: rgba(136, 94, 255, 1);
+  --bon-jour: rgba(223, 223, 224, 1);
+  --cultured-pearl: rgba(245, 245, 245, 1);
+  --white: rgba(255, 255, 255, 1);
+
+  --font-size-xxs: 12px;
+  --font-size-xs: 13px;
+  --font-size-xxl: 18px;
+  --font-size-s2: 15px;
+  --font-size-m2: 16px;
+  --font-size-xs2: 14px;
+
+  --font-family-manrope: "Manrope";
+  --font-family-manrope-medium: "Manrope-Medium";
+}
+
+.manrope-semi-bold-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-indigo-12px {
+  color: var(--indigo);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-onyx-15px {
+  color: var(--onyx-2);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-semi-bold-ship-gray-16px {
+  color: var(--ship-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-true-v-14px {
+  color: var(--true-v);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-onyx-14px {
+  color: var(--onyx-2);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-white-14px {
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-true-v-15px {
+  color: var(--true-v);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-white-15px {
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.border-1px-bon-jour {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--bon-jour);
+}
+.manrope-semi-bold-white-13px {
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-onyx-15px {
+  color: var(--onyx-2);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-dove-gray-14px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-semi-bold-onyx-15px {
+  color: var(--onyx);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-ship-gray-15px {
+  color: var(--ship-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-true-v-14px {
+  color: var(--true-v);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-12px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-indigo-14px {
+  color: var(--indigo);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-13px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-style: normal;
+}
+.border-2px-onyx {
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--onyx-2);
+}
+.manrope-medium-indigo-12px {
+  color: var(--indigo);
+  font-family: var(--font-family-manrope-medium);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-abbey-15px {
+  color: var(--abbey);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-12px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope-medium);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-14px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-15px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.group-439 {
+  align-items: flex-start;
+  display: flex;
+  height: 265px;
+  min-width: 311px;
+}
+
+.overlap-group {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #0000001a;
+  display: flex;
+  flex-direction: column;
+  min-height: 265px;
+  padding: 17px 15px;
+  width: 307px;
+}
+
+.flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 48px;
+  margin-right: 4.04px;
+  min-width: 265px;
+}
+
+.flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 48px;
+  width: 92px;
+}
+
+.reject-offer {
+  letter-spacing: 0;
+  min-height: 22px;
+}
+
+.text-1 {
+  letter-spacing: 0;
+  margin-top: 6px;
+  min-height: 20px;
+}
+
+.frame {
+  height: 16px;
+  margin-left: 157px;
+  margin-top: 3px;
+  width: 16px;
+}
+
+.group-542 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-top: 21px;
+  min-height: 75px;
+  width: 274px;
+}
+
+.reason {
+  letter-spacing: -0.15px;
+  line-height: 18px;
+  margin-left: 1px;
+  min-height: 18px;
+  white-space: nowrap;
+}
+
+.group-540 {
+  align-items: center;
+  background-color: #fbfbfb;
+  border-radius: 6px;
+  display: flex;
+  height: 40px;
+  margin-top: 12px;
+  width: 271px;
+  margin-left: -25px;
+  padding: 10px 16px;
+}
+
+.not-for-sale {
+  align-self: flex-end;
+  letter-spacing: -0.15px;
+  line-height: 18px;
+  min-height: 22px;
+  width: 117px;
+}
+
+.vector-4 {
+  height: 8px;
+  margin-left: 111px;
+  margin-top: 1px;
+  width: 11px;
+}
+
+.primary_button {
+  align-items: center;
+  background-color: var(--onyx-2);
+  border-radius: 10px;
+  display: flex;
+  height: 40px;
+  margin-right: 2px;
+  margin-top: 30px;
+  min-width: 271px;
+  padding: 0 9.8px;
+}
+
+.iconoffer {
+  height: 24px;
+  width: 24px;
+}
+
+.label {
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m2);
+  font-weight: 600;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  margin-bottom: 1px;
+  margin-left: 10px;
+  min-height: 22px;
+  text-align: center;
+  white-space: nowrap;
+  width: 191px;
+}
+
+.icon-hide-chevron {
+  height: 24px;
+  margin-left: 10px;
+  width: 16px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Manrope:500,600");

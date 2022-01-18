@@ -1,0 +1,378 @@
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --onyx: rgba(51, 55, 59, 0.698);
+  --onyx-2: rgba(51, 55, 59, 1);
+  --ship-gray: rgba(64, 63, 71, 1);
+  --abbey: rgba(79, 79, 79, 1);
+  --indigo: rgba(88, 123, 224, 1);
+  --dove-gray: rgba(111, 110, 114, 1);
+  --true-v: rgba(136, 94, 255, 1);
+  --cultured-pearl: rgba(245, 245, 245, 1);
+  --white: rgba(255, 255, 255, 1);
+
+  --font-size-xxs: 12px;
+  --font-size-xs: 13px;
+  --font-size-xxl: 18px;
+  --font-size-s2: 15px;
+  --font-size-m2: 16px;
+  --font-size-xs2: 14px;
+
+  --font-family-manrope: "Manrope";
+  --font-family-manrope-medium: "Manrope-Medium";
+}
+
+.manrope-medium-indigo-12px {
+  color: var(--indigo);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-onyx-15px {
+  color: var(--onyx-2);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-semi-bold-ship-gray-16px {
+  color: var(--ship-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-semi-bold-onyx-14px {
+  color: var(--onyx-2);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-true-v-15px {
+  color: var(--true-v);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-white-15px {
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-white-13px {
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-onyx-15px {
+  color: var(--onyx-2);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-dove-gray-14px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-semi-bold-onyx-15px {
+  color: var(--onyx);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-ship-gray-15px {
+  color: var(--ship-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-true-v-14px {
+  color: var(--true-v);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-12px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-indigo-14px {
+  color: var(--indigo);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-13px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-style: normal;
+}
+.border-2px-onyx {
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--onyx-2);
+}
+.manrope-medium-indigo-12px {
+  color: var(--indigo);
+  font-family: var(--font-family-manrope-medium);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-abbey-15px {
+  color: var(--abbey);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-12px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope-medium);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-14px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-15px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.group-530 {
+  height: 180px;
+  width: 363px;
+}
+.digital-ninja {
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m2);
+  font-weight: 600;
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 92px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Manrope:700,500,600");
+
+.text-1 {
+  letter-spacing: 0;
+  min-height: 20px;
+  min-width: 56px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Manrope:700,500,600");
+
+.group-527 {
+  align-items: flex-start;
+  display: flex;
+  height: 26px;
+  min-width: 127px;
+}
+
+.overlap-group {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 15px;
+  display: flex;
+  height: 30px;
+  margin-left: -2px;
+  margin-top: -2px;
+  min-width: 30px;
+  padding: 2px 2px;
+}
+
+.group-253 {
+  height: 22px;
+  width: 22px;
+}
+
+.johndoenear {
+  align-self: center;
+  letter-spacing: -0.15px;
+  margin-bottom: 3px;
+  margin-left: 6px;
+  min-height: 19px;
+  min-width: 91px;
+  text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Manrope:700,500,600");
+
+.group-455 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 33px;
+  width: 368px;
+}
+
+.flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 19px;
+  margin-left: 31px;
+  min-width: 297px;
+}
+
+.info {
+  letter-spacing: -0.15px;
+  min-height: 19px;
+  min-width: 26px;
+  text-align: center;
+}
+
+.pending-offers {
+  letter-spacing: -0.15px;
+  margin-left: 54px;
+  min-height: 19px;
+  min-width: 97px;
+  text-align: center;
+}
+
+.trade-history {
+  color: var(--onyx-2);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 700;
+  letter-spacing: -0.15px;
+  margin-left: 31px;
+  min-height: 19px;
+  min-width: 89px;
+  text-align: center;
+}
+
+.line-container {
+  height: 3px;
+  margin-right: 6px;
+  margin-top: 12px;
+  position: relative;
+  width: 363px;
+}
+
+.line-25 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 363px;
+}
+
+.line-26 {
+  height: 3px;
+  left: 242px;
+  position: absolute;
+  top: 0;
+  width: 121px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Manrope:700,500,600");
+
+.group-564 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 128px;
+  width: 303px;
+  margin-left: 12px;
+}
+
+.group-536 {
+  align-items: flex-start;
+  display: flex;
+  height: 64px;
+  justify-content: flex-end;
+  min-width: 303px;
+}
+
+.group-472 {
+  height: 36px;
+  margin-top: 11.67px;
+  width: 36px;
+}
+
+.group-471 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 11px;
+  min-height: 64px;
+  width: 260px;
+}
+
+.johdoenear-bought {
+  letter-spacing: 0;
+  min-height: 40px;
+  width: 256px;
+}
+
+.address {
+  letter-spacing: 0;
+  margin-top: -10px;
+  min-height: 18px;
+}
+
+.group-535 {
+  align-items: flex-start;
+  display: flex;
+  height: 41px;
+  justify-content: flex-end;
+  margin-top: 23px;
+  min-width: 303px;
+}
+
+.group-253 {
+  height: 35px;
+  margin-top: 1px;
+  width: 36px;
+}
+
+.group-471-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  min-height: 41px;
+  width: 260px;
+}
+
+.ninajkingnear-minted-72873 {
+  letter-spacing: 0;
+  min-height: 20px;
+  width: 256px;
+}
+
+.address-2 {
+  letter-spacing: 0;
+  margin-top: -30px;
+  min-height: 18px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Manrope:700,500,600");

@@ -1,0 +1,442 @@
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --onyx: rgba(51, 55, 59, 0.698);
+  --onyx-2: rgba(51, 55, 59, 1);
+  --ship-gray: rgba(64, 63, 71, 1);
+  --abbey: rgba(79, 79, 79, 1);
+  --indigo: rgba(88, 123, 224, 1);
+  --dove-gray: rgba(111, 110, 114, 1);
+  --true-v: rgba(136, 94, 255, 1);
+  --bon-jour: rgba(223, 223, 224, 1);
+  --cultured-pearl: rgba(245, 245, 245, 1);
+  --white: rgba(255, 255, 255, 1);
+
+  --font-size-xxs: 12px;
+  --font-size-xs: 13px;
+  --font-size-xxl: 18px;
+  --font-size-s2: 15px;
+  --font-size-m2: 16px;
+  --font-size-xs2: 14px;
+
+  --font-family-manrope: "Manrope";
+  --font-family-manrope-medium: "Manrope-Medium";
+}
+
+.manrope-semi-bold-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-indigo-12px {
+  color: var(--indigo);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-onyx-15px {
+  color: var(--onyx-2);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-semi-bold-ship-gray-16px {
+  color: var(--ship-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-true-v-14px {
+  color: var(--true-v);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-onyx-14px {
+  color: var(--onyx-2);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-white-14px {
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-true-v-15px {
+  color: var(--true-v);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-white-15px {
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-white-13px {
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-onyx-15px {
+  color: var(--onyx-2);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-dove-gray-14px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-semi-bold-onyx-15px {
+  color: var(--onyx);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-ship-gray-15px {
+  color: var(--ship-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-true-v-14px {
+  color: var(--true-v);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-12px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-indigo-14px {
+  color: var(--indigo);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-13px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-style: normal;
+}
+.border-2px-onyx {
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--onyx-2);
+}
+.manrope-medium-indigo-12px {
+  color: var(--indigo);
+  font-family: var(--font-family-manrope-medium);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-abbey-15px {
+  color: var(--abbey);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-12px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope-medium);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-14px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-15px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.primary_button {
+  align-items: center;
+  background-color: var(--true-v);
+  border-radius: 10px;
+  display: flex;
+  height: 40px;
+  min-width: 325px;
+  padding: 0 10px;
+}
+
+.iconplus {
+  height: 24px;
+  width: 24px;
+}
+
+.label {
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m2);
+  font-weight: 600;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  margin-bottom: 1px;
+  margin-left: 10px;
+  min-height: 22px;
+  text-align: center;
+  white-space: nowrap;
+  width: 245px;
+}
+
+.icon-hide-chevron {
+  height: 24px;
+  margin-left: 10px;
+  width: 16px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Manrope:400,500,600");
+
+.group-455 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 39px;
+  width: 366px;
+}
+
+.flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 29px;
+  margin-right: 11px;
+  min-width: 299px;
+}
+
+.my-nft {
+  align-self: flex-end;
+  letter-spacing: -0.15px;
+  min-height: 28px;
+  text-align: center;
+  width: 127px;
+}
+
+.history {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 600;
+  letter-spacing: -0.15px;
+  margin-left: 45px;
+  min-height: 28px;
+  text-align: center;
+  width: 127px;
+}
+
+.line-container {
+  height: 3px;
+  margin-right: 4px;
+  margin-top: 7px;
+  position: relative;
+  width: 362px;
+}
+
+.line-25 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 362px;
+}
+
+.line-26 {
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 181px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Manrope:400,500,600");
+
+.group-519 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 208px;
+  width: 321px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.group-566 {
+  align-items: center;
+  display: flex;
+  min-width: 324px;
+}
+
+.rectangle-2 {
+  background-color: var(--bon-jour);
+  border-radius: 10px;
+  height: 60px;
+  width: 60px;
+}
+
+.flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2px;
+  margin-left: 13px;
+  min-height: 40px;
+  width: 106px;
+}
+
+.digital-ninja {
+  letter-spacing: 0;
+  min-height: 19px;
+  min-width: 81px;
+  text-align: center;
+}
+
+.by-johndoenear {
+  letter-spacing: 0;
+  margin-top: 2px;
+  min-height: 19px;
+  min-width: 106px;
+  text-align: center;
+}
+
+.frame {
+  height: 16px;
+  margin-left: 125px;
+  margin-top: 4px;
+  width: 16px;
+}
+
+.group-555 {
+  align-items: center;
+  display: flex;
+  margin-top: 14px;
+  min-width: 321px;
+}
+
+.group-459 {
+  align-items: center;
+  display: flex;
+  height: 38px;
+  margin-left: 15px;
+  min-width: 250px;
+}
+
+.flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 38px;
+  width: 121px;
+}
+
+.panda {
+  letter-spacing: 0;
+  min-height: 19px;
+  min-width: 42px;
+  text-align: center;
+}
+
+.by-whitegoose497 {
+  letter-spacing: 0;
+  margin-left: 1px;
+  min-height: 19px;
+  min-width: 120px;
+  text-align: center;
+}
+
+.frame-1 {
+  height: 16px;
+  margin-bottom: 2px;
+  margin-left: 109px;
+  width: 16px;
+}
+
+.flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 14px;
+  min-width: 325px;
+  margin-left: 0px;
+}
+
+.group-460 {
+  align-items: center;
+  display: flex;
+  height: 40px;
+  margin-left: 13px;
+  margin-top: 3px;
+  min-width: 252px;
+}
+
+.ninja-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 40px;
+  width: 101px;
+}
+
+.by-crypto_ninja {
+  color: transparent;
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: 2px;
+  min-height: 19px;
+  min-width: 101px;
+  text-align: center;
+}
+
+.span0 {
+  color: var(--dove-gray);
+}
+
+.span1 {
+  color: var(--true-v);
+}
+
+.framee {
+  height: 16px;
+  margin-bottom: 2px;
+  margin-left: 130px;
+  width: 16px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Manrope:400,500,600");

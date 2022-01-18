@@ -1,0 +1,416 @@
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --onyx: rgba(51, 55, 59, 0.698);
+  --onyx-2: rgba(51, 55, 59, 1);
+  --jungle-green: rgba(52, 174, 144, 1);
+  --ship-gray: rgba(64, 63, 71, 1);
+  --abbey: rgba(79, 79, 79, 1);
+  --blue-jeans: rgba(83, 169, 248, 1);
+  --indigo: rgba(88, 123, 224, 1);
+  --dove-gray: rgba(111, 110, 114, 1);
+  --true-v: rgba(136, 94, 255, 1);
+  --bon-jour: rgba(223, 223, 224, 1);
+  --cultured-pearl: rgba(245, 245, 245, 1);
+  --tan-hide: rgba(248, 143, 83, 1);
+  --white: rgba(255, 255, 255, 1);
+
+  --font-size-xxs: 12px;
+  --font-size-xs: 13px;
+  --font-size-xxl: 18px;
+  --font-size-s2: 15px;
+  --font-size-m2: 16px;
+  --font-size-xs2: 14px;
+
+  --font-family-manrope: "Manrope";
+  --font-family-manrope-medium: "Manrope-Medium";
+}
+
+.manrope-semi-bold-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-indigo-12px {
+  color: var(--indigo);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-onyx-15px {
+  color: var(--onyx-2);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-semi-bold-ship-gray-16px {
+  color: var(--ship-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-true-v-14px {
+  color: var(--true-v);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-onyx-14px {
+  color: var(--onyx-2);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-white-14px {
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-true-v-15px {
+  color: var(--true-v);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-white-15px {
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.border-1px-bon-jour {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--bon-jour);
+}
+.manrope-semi-bold-white-13px {
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-onyx-15px {
+  color: var(--onyx-2);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-dove-gray-14px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-semi-bold-onyx-15px {
+  color: var(--onyx);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-ship-gray-15px {
+  color: var(--ship-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-true-v-14px {
+  color: var(--true-v);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-12px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-indigo-14px {
+  color: var(--indigo);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-13px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-style: normal;
+}
+.border-2px-onyx {
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--onyx-2);
+}
+.manrope-medium-indigo-12px {
+  color: var(--indigo);
+  font-family: var(--font-family-manrope-medium);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-abbey-15px {
+  color: var(--abbey);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-12px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope-medium);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-14px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-15px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.group-439 {
+  align-items: flex-start;
+  display: flex;
+  height: 412px;
+  min-width: 309px;
+}
+
+.overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #0000001a;
+  display: flex;
+  flex-direction: column;
+  min-height: 412px;
+  padding: 17px 18px;
+  width: 307px;
+}
+
+.filter {
+  letter-spacing: 0;
+  margin-left: 1px;
+  min-height: 22px;
+}
+
+.group-495 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 22px;
+  min-width: 192px;
+}
+
+.group-494 {
+  height: 320px;
+  margin-top: 1px;
+  width: 22px;
+}
+
+.group-container {
+  height: 328px;
+  margin-left: 12px;
+  position: relative;
+  width: 172px;
+}
+
+.group-493 {
+  align-items: flex-end;
+  background-color: var(--indigo);
+  border-radius: 17.5px;
+  display: flex;
+  height: 35px;
+  left: 0;
+  min-width: 35px;
+  padding: 5px 2.5px;
+  position: absolute;
+  top: 41px;
+}
+
+.frame {
+  height: 24px;
+  width: 25px;
+}
+
+.group-480 {
+  align-items: center;
+  background-color: var(--ship-gray);
+  border-radius: 17.5px;
+  display: flex;
+  height: 35px;
+  left: 1px;
+  min-width: 35px;
+  padding: 0 6.5px;
+  position: absolute;
+  top: 92px;
+}
+
+.frame-1 {
+  height: 21px;
+  width: 22px;
+}
+
+.group-488 {
+  align-items: center;
+  background-color: var(--jungle-green);
+  border-radius: 17.5px;
+  display: flex;
+  height: 35px;
+  left: 0;
+  min-width: 35px;
+  padding: 0 6.5px;
+  position: absolute;
+  top: 143px;
+}
+
+.frame-2 {
+  height: 21px;
+  width: 22px;
+}
+
+.group-489 {
+  align-items: center;
+  background-color: var(--tan-hide);
+  border-radius: 17.5px;
+  display: flex;
+  height: 35px;
+  left: 1px;
+  min-width: 35px;
+  padding: 0 6.5px;
+  position: absolute;
+  top: 194px;
+}
+
+.box-9-1 {
+  height: 21px;
+  width: 22px;
+}
+
+.group-490 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 1px;
+  min-height: 85px;
+  position: absolute;
+  top: 243px;
+  width: 35px;
+}
+
+.overlap-group {
+  align-items: center;
+  background-color: var(--blue-jeans);
+  border-radius: 17.5px;
+  display: flex;
+  height: 35px;
+  min-width: 35px;
+  padding: 0 6.5px;
+}
+
+.frame-3 {
+  height: 21px;
+  width: 22px;
+}
+
+.group-480-1 {
+  align-items: center;
+  background-color: var(--true-v);
+  border-radius: 17.5px;
+  display: flex;
+  height: 35px;
+  margin-top: 15px;
+  min-width: 35px;
+  padding: 0 6.5px;
+}
+
+.group-486 {
+  height: 21px;
+  width: 22px;
+}
+
+.group-492 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 2px;
+  min-height: 321px;
+  position: absolute;
+  top: 0;
+  width: 170px;
+}
+
+.all-experiences {
+  align-self: flex-start;
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 156px;
+}
+
+.exchanges {
+  letter-spacing: 0;
+  margin-left: 10px;
+  margin-top: 25px;
+  min-height: 22px;
+  min-width: 84px;
+}
+
+.group-492-item {
+  letter-spacing: 0;
+  margin-right: 21px;
+  margin-top: 29px;
+  min-height: 22px;
+  min-width: 53px;
+}
+
+.marketplace {
+  letter-spacing: 0;
+  margin-left: 21px;
+  margin-top: 25px;
+  min-height: 22px;
+  min-width: 95px;
+}
+
+.de-fi {
+  letter-spacing: 0;
+  margin-right: 40px;
+  margin-top: 32px;
+  min-height: 22px;
+  min-width: 34px;
+}
+
+.collectibles {
+  letter-spacing: 0;
+  margin-left: 18px;
+  margin-top: 27px;
+  min-height: 22px;
+  min-width: 92px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Manrope:500,600");

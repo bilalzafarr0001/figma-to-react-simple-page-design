@@ -1,0 +1,299 @@
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --onyx: rgba(51, 55, 59, 0.698);
+  --onyx-2: rgba(51, 55, 59, 1);
+  --ship-gray: rgba(64, 63, 71, 1);
+  --abbey: rgba(79, 79, 79, 1);
+  --indigo: rgba(88, 123, 224, 1);
+  --dove-gray: rgba(111, 110, 114, 1);
+  --true-v: rgba(136, 94, 255, 1);
+  --bon-jour: rgba(223, 223, 224, 1);
+  --cultured-pearl: rgba(245, 245, 245, 1);
+  --white: rgba(255, 255, 255, 1);
+
+  --font-size-xxs: 12px;
+  --font-size-xs: 13px;
+  --font-size-xxl: 18px;
+  --font-size-s2: 15px;
+  --font-size-m2: 16px;
+  --font-size-xs2: 14px;
+
+  --font-family-manrope: "Manrope";
+  --font-family-manrope-medium: "Manrope-Medium";
+}
+
+.manrope-semi-bold-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-indigo-12px {
+  color: var(--indigo);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-onyx-15px {
+  color: var(--onyx-2);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-semi-bold-ship-gray-16px {
+  color: var(--ship-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-true-v-14px {
+  color: var(--true-v);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-onyx-14px {
+  color: var(--onyx-2);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-white-14px {
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-true-v-15px {
+  color: var(--true-v);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-white-15px {
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.border-1px-bon-jour {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--bon-jour);
+}
+.manrope-semi-bold-white-13px {
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-onyx-15px {
+  color: var(--onyx-2);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-dove-gray-14px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-semi-bold-onyx-15px {
+  color: var(--onyx);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-ship-gray-15px {
+  color: var(--ship-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-semi-bold-true-v-14px {
+  color: var(--true-v);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-12px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-indigo-14px {
+  color: var(--indigo);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-13px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-style: normal;
+}
+.border-2px-onyx {
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--onyx-2);
+}
+.manrope-medium-indigo-12px {
+  color: var(--indigo);
+  font-family: var(--font-family-manrope-medium);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-abbey-15px {
+  color: var(--abbey);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-12px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope-medium);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-14px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 500;
+  font-style: normal;
+}
+.manrope-medium-dove-gray-15px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.group-448 {
+  align-items: flex-start;
+  background-color: #33373b66;
+  display: flex;
+  height: 644px;
+  min-width: 385px;
+  padding: 78px 35px;
+}
+
+.group-container {
+  border-radius: 10px;
+  height: 227px;
+  position: relative;
+  width: 307px;
+}
+
+.overlap-group {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #0000001a;
+  display: flex;
+  height: 227px;
+  left: 0;
+  min-width: 307px;
+  padding: 17px 19px;
+  position: absolute;
+  top: 0;
+}
+
+.share-this-experience {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 166px;
+}
+
+.frame {
+  height: 16px;
+  margin-left: 112px;
+  margin-top: 3px;
+  width: 17px;
+}
+
+.group-513 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 19px;
+  min-height: 140px;
+  position: absolute;
+  top: 58px;
+  width: 266px;
+}
+
+.overlap-group1 {
+  align-items: flex-start;
+  background-color: #e9efff;
+  border-radius: 5px;
+  display: flex;
+  height: 45px;
+  justify-content: flex-end;
+  margin-right: 2px;
+  min-width: 264px;
+  padding: 13px 9px;
+}
+
+.httpsnearlabsappappdocu_s {
+  letter-spacing: 0;
+  min-height: 17px;
+  width: 241px;
+}
+
+.group-497 {
+  display: flex;
+  margin-right: 9px;
+  margin-top: 15px;
+  min-width: 93px;
+  margin-left: -100px;
+}
+
+.frame-1 {
+  height: 24px;
+  width: 25px;
+}
+
+.copy-link {
+  color: var(--indigo);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  letter-spacing: 0;
+  margin-bottom: 1px;
+  margin-left: 6px;
+  min-height: 19px;
+  min-width: 61px;
+}
+
+.group-498 {
+  height: 24px;
+  margin-left: 4px;
+  margin-top: 32px;
+  width: 119px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Manrope:500,600");
